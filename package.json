@@ -1,0 +1,18 @@
+{
+  "name": "webrtc-tools",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A set of tools to help test webrtc related issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-kinesis-video": "^3.287.0",
+    "@aws-sdk/client-kinesis-video-signaling": "^3.287.0",
+    "amazon-kinesis-video-streams-webrtc": "^2.0.2",
+    "stun": "^2.1.0"
+  }
+}
